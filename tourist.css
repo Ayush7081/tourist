@@ -1,0 +1,96 @@
+/* Styles for larger screens */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #020202;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #a9e17c;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styles for smaller screens (mobile view) */
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+
+  header, footer {
+    padding: 5px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+h1.first{
+  background-color: rgba(142, 214, 237, 0.803);
+  font-style: initial
+ f
+}
+.first{
+  font-style: oblique;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation-name: initial;
+}
+#border{
+  background-color: rgb(188, 182, 10);
+}
+body{
+  background-color: rgba(15, 15, 15, 0.89);
+  border-style:solid
+}
+#home{
+  padding: 1%;
+  margin: 2%;
+  background-color: rgb(255, 255, 255);
+  border-style: groove;
+}
+h2{
+  color: rgb(0, 0, 0);
+}
+h3{
+  color: brown;
+}
+p{
+  color: brown;
+}
+#hello{ 
+ background-color: chartreuse;
+ border: 5px solid;
+}
+#footer{
+  background-color: chocolate;
+  border: 5px solid;
+}
+#home{
+  color: chocolate;
+  border: 4px;
+}
+#photo{
+  border: 5px;
+  border-color: cornflowerblue;
+  border-image: space;
+}

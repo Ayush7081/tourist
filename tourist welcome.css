@@ -1,0 +1,168 @@
+/* Styles for devices with a width of 600 pixels or less (typical for mobile phones) */
+@media only screen and (max-width: 600px) {
+  
+
+  /*  Adjusting font size for better readability on smaller screens */
+  body {
+    font-size: 14px;
+  }
+
+  /*Making images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*  Adjusting layout for smaller screens */
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Default styles for larger screens */
+body {
+  font-size: 16px;
+}
+/* Styles for larger screens */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 20px;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+
+
+/* Styles for smaller screens (mobile view) */
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+
+  header, footer {
+    padding: 5px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+H1{
+  font-size: 4cqw;
+  
+  text-decoration: underline;
+  color: #0c0c0c;
+  text-transform: inherit;
+  text-shadow: 9cqb;
+  text-indent: 45%;
+  text-decoration-color: rgb(18, 57, 83);
+}
+body{
+
+  padding: 1%;
+  
+  border-color: brown solid;
+}
+#h3{
+  color: brown;
+  font-style: italic;
+
+}
+#nav{
+  color: brown;
+  margin: 2px;
+  padding: 2px;
+  background-color: rgb(241, 151, 48);
+  border-style: groove;
+  box-shadow: inset;
+  
+}
+h2{
+  font-size: 3cqw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 1px;
+  padding: 2px;
+  
+}
+
+p{
+  font-size: 2cqw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%; height: 100vh;
+ 
+    background-image: url(images/Travel-Wallpaper-Background.webp);
+    background-repeat:no-repeat;
+    background-size: height=400 width=400;
+    text-align:none;
+    background-position: center;
+    background-size: cover;
+}
+   nav{
+    
+  width: 100; height: 30px;
+    background-color: rgb(27, 143, 149);
+    color:rgb(86, 58, 22); display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+    
+   }
+   *{
+   text-align: center;
+   font-size: medium;
+   }
+
+
+  button {
+    color: rgb(234, 10, 10);
+  }
+
+#box,option{
+  padding: 2%;
+  margin: 10px;
+  background-color: rgb(52, 248, 82);
+  border: 10px;
+  border-style: solid;
+  color: rgb(171, 67, 88);
+  font-size: 20px;
+
+  font-weight: 200;
+  font-style: oblique;
+  box-shadow: 2cm;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-feature-settings: "c2pc";
+}
+#submit{
+color: rgb(0, 102, 128);
+
+  font-style: initial;
+  padding: 1px;
+  margin: 1px;
+  
+}

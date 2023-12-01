@@ -1,0 +1,64 @@
+
+h2{
+    color: rgba(30, 150, 235, 0.759);
+    font-style: oblique;
+}
+h3{
+    color: rgb(150, 94, 9);
+border: 5px;
+}
+fieldset{
+    color: rgb(217, 27, 103);
+}
+click{
+    color: rgba(46, 110, 67, 0.7);
+}
+/* Styles for larger screens */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141212;
+    color: #333;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center; 
+    border-style: solid;
+  }
+  
+  /* Styles for smaller screens (mobile view) */
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      margin: 10px;
+    }
+  
+    header, footer {
+      padding: 5px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
